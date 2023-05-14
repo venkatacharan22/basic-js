@@ -1,2 +1,3 @@
-# basic-js
+# beautiful women generator
+
 js
