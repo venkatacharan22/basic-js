@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        border-top: 10px solid #ff8c00;
+        border-right: 10px solid #ffcc00;
+        border-bottom: 10px solid #ff8c00;
+        border-left: 10px solid #ffcc00;
+      }
+
+      .generate-meme {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+      }
+      .generate-meme .memebtn {
+        padding: 8px 20px;
+        border: none;
+        border-left: 4px solid red;
+        border-right: 4px solid red;
+        margin: 24px 0px;
+        font-size: 20px;
+        background-color: white;
+        transition: all 400ms ease;
+      }
+      .generate-meme .memebtn:hover {
+        padding: 8px 36px;
+        border-left: 4px solid rgb(30, 255, 0);
+        border-right: 4px solid rgb(30, 255, 0);
+        background-color: black;
+        color: white;
+        letter-spacing: 3px;
+        cursor: pointer;
+      }
+      .generate-meme .memeauthor {
+        margin: 8px;
+      }
+      .generate-meme img {
+        height: 430px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="generate-meme">
+      <button class="memebtn">for good women</button>
+      <h1 class="memetitle">loading</h1>
+      <img src="" alt="" />
+      <div class="memeauthor"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
